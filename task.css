@@ -1,0 +1,83 @@
+body{
+     background-image:url(./img/pexels-polina-kovaleva-5717411.jpg); 
+
+    background-repeat: no-repeat;
+    background-size:cover ;    
+}
+.ha{
+     margin-top: 100px; 
+    width: 500px; 
+    height: 500px; 
+    text-align: center;
+    border-radius: 10px 10px ; 
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,226,148,0.4599089635854342) 100%);
+}
+.button{
+     border: none;  
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    color: black;
+    box-shadow: 0px 0px 3px red inset;
+}
+input{
+    width: 200px; 
+     height: 50px; 
+    border-radius: 10px;
+    text-align: center; 
+    box-shadow: 0px 0px 3px red inset; 
+    border: none;   
+}
+.ha:hover{   
+    border-radius: 50px 100px;
+}
+ h2{
+   padding-top: 20px;
+   font-family: 'Times New Roman', Times, serif;
+   color:white;
+   padding-bottom: 50px;
+   text-shadow: 0px 0px 10px red;
+   animation-duration: 3s;
+   animation-name: haris;
+} 
+@keyframes haris{
+0%{
+    
+}
+50%{
+    transform: translate(30px);  
+}
+100%{
+    transform: scale(0.5);
+}
+}
+.aaa{
+    width: 20px;
+       
+}
+p{ 
+    border: 1px solid white;
+     box-shadow: 0px 0px 3px red inset;
+    width: 300px;
+   
+    border-radius: 10px;
+    /* background-color:whitesmoke; */
+   display: flex;
+   justify-content: space-between;
+    padding: 5px;  
+
+}
+.zzz{
+    margin-left: 100px;
+     font-family:'Times New Roman', Times, serif ;
+     font-weight: 900; 
+     padding: 10px; 
+     color:white; 
+     text-shadow: 0px 0px 5px red;
+     cursor: pointer;
+     
+}
+ 
+
